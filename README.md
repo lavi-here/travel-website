@@ -26,7 +26,7 @@ This project showcases a clean UI design and a user-friendly experience for expl
 ---
 
 ## 🔗 Live Demo
-(Add your live website link here)
+https://lavi-here.github.io/travel-website/
 
 ---
 
@@ -53,7 +53,7 @@ This project showcases a clean UI design and a user-friendly experience for expl
 ---
 
 ## 📫 Connect with Me
-- LinkedIn: (Add your link here)
+- LinkedIn: https://www.linkedin.com/in/lavi-pal-4a5020360/
 
 ---
 
