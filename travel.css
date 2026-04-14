@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    background-color: #E9E3E6;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/** navbar**/
+.navbar{
+    background-color: #B2B2B2;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow:5px 10px 40px 10px white;
+}
+.navbar h1{
+    margin-left: 40px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    background-color: #B2B2B2;
+}
+.navbartabs{
+    display: flex;
+    margin-right: 30px;
+    width: 30%;
+    justify-content: space-between;
+    background-color: #B2B2B2;
+}
+.navbartabs a{
+    background-color: #B2B2B2;
+    color: black;
+    text-decoration: none;
+    font-family: "Cossette Titre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    transition: hover 0.5s ease 0s;
+}
+.navbartabs a:hover{
+    color: white;
+}
+/** BODY **/
+.travelsection{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.travelsectionand{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.place{
+    height: 550px;
+    width: 300px;
+    background-color: white;
+}
+.imagebox{
+    height: 50%;
+    width: 300px;
+    overflow: hidden;
+}
+.image{
+    height: 100%;
+    width: 300px;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.fivestar{
+    height: 50px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.place p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    background-color: white;
+    margin-top: 10px;
+    color: #2D2D2D;
+}
+#price{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #0077B6;
+    margin-top: 30px;
+}
+.exploremore{
+    height: 50px;
+    width: 70%;
+    background-color: orangered;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    margin-top: 50px;
+}
+.exploremore:hover{
+    background-color: black;
+    color: orangered;
+}
+/** footer **/
+.footerbox{
+    height: 50px;
+    background-color: #2D2D2D;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cossette Titre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+.footerbox p{
+    background-color: #2D2D2D;
+}
