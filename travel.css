@@ -8,6 +8,11 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+}
 /** navbar**/
 .navbar{
     background-color: #B2B2B2;
